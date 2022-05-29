@@ -51,3 +51,7 @@ body .container ul li a:hover {
   border: 2px solid #54a1f9;
   color: #54a1f9;
 }
+
+.background{
+  background-color: var(--bg);
+}
