@@ -1,6 +1,6 @@
 let eded=parseInt(prompt("Ədədinizi daxil edin"))
 if(eded==0 ||eded==1){
-    alert(`${eded}! = ${eded}`)
+    alert(`${eded}! = 1`)
 }
 else if(eded>0){
     let fact=1
