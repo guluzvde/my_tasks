@@ -1,6 +1,6 @@
 let eded1=parseInt(prompt("Birinci ədədinizi daxil edin"))
 let eded2=parseInt(prompt("İkinci ədədinizi daxil edin"))
-let emel=prompt("Riyazi əməlinizi daxil edin (məs. +, -, *, /")
+let emel=prompt("Riyazi əməlinizi daxil edin (məs. +, -, x, /")
 
 function kalk(eded1,eded2,emel){
     switch (emel){
