@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Diplomata+SC&display=swap");
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d9afd9;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#d9afd9), to(#97d9e1));
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+}
+
+body .counter-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+body .counter-group h1 {
+  font-family: 'Press Start 2P', cursive;
+  color: #ea6ef8;
+}
+
+body .counter-group h3 {
+  font-size: 100px;
+  margin-top: 50px;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 5px 5px 20px;
+}
+
+body .counter-group .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+body .counter-group .btns button {
+  font-family: 'Press Start 2P', cursive;
+  cursor: pointer;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 30px;
+  background: -webkit-gradient(linear, left top, right top, from(#d6a4a4), to(#dae2f8));
+  background: linear-gradient(to right, #d6a4a4 0%, #dae2f8 100%);
+}
+
+.green {
+  color: green;
+}
+
+.black {
+  color: black;
+}
+
+.red {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
