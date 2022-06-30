@@ -1,0 +1,49 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282D39;
+}
+
+.general {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.general .clock-general {
+  display: flex;
+  text-align: center;
+  gap: 1rem;
+}
+.general .clock-general * {
+  padding: 1rem;
+  border-radius: 2rem;
+  color: white;
+  font-size: 100px;
+}
+.general .clock-general #hours {
+  background-color: #F95659;
+}
+.general .clock-general #minutes {
+  background-color: #2DCA74;
+}
+.general .clock-general #seconds {
+  background-color: #F5BC58;
+}
+.general .general-date {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 3rem;
+  border-radius: 1rem;
+  font-size: 15px;
+  background-color: rgb(77, 77, 77);
+}
+.general .general-date #date {
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+  color: rgb(158, 158, 158);
+  text-transform: uppercase;
+}/*# sourceMappingURL=style.css.map */

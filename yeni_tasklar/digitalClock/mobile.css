@@ -1,0 +1,10 @@
+.general {
+  gap: 0.5rem;
+}
+.general .clock-general {
+  gap: 0.5rem;
+}
+.general .clock-general * {
+  padding: 1rem;
+  font-size: 50px;
+}/*# sourceMappingURL=mobile.css.map */

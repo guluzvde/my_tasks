@@ -1,0 +1,49 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282D39;
+}
+.general{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    .clock-general{
+        display: flex;
+        text-align: center;
+        gap: 1rem;
+        *{
+            padding: 1rem;
+            border-radius: 2rem;
+            color: white;
+            font-size: 100px;
+        }
+        #hours{
+            background-color: #F95659;
+        }
+        #minutes{
+            background-color: #2DCA74;
+        }
+        #seconds{
+            background-color: #F5BC58;
+        }
+    }
+    .general-date{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 3rem;
+        border-radius: 1rem;
+        font-size: 15px;
+        background-color: rgb(77, 77, 77);
+        #date{
+            gap: 2rem;
+            display: flex;
+            align-items: center;
+            color: rgb(158, 158, 158);
+            text-transform: uppercase;
+        }
+    }
+    
+}
