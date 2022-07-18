@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 body{
+    padding-top: 20px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #093434;
+    padding-bottom: 50px;
 }
 #group{
     display: flex;
@@ -48,4 +50,24 @@ button:hover{
     border: 0.5px solid goldenrod;
 color: goldenrod;
     /* border-radius: 50px; */
+}
+.instruct{
+    display: none;
+    height: 10rem;
+    overflow: scroll;
+    border: 1px solid goldenrod;
+}
+img{
+    display: none;
+    height: 15rem;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+iframe{
+    display: none;
+    
 }
