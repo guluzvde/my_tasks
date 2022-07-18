@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body .profile {
+  text-align: center;
+}
+body .profile img {
+  padding-top: 15px;
+}
+body .profile .group {
+  display: flex;
+  flex-direction: column;
+}
+body .profile .group .fol {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+body .profile .group .fol * {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
