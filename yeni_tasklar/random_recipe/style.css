@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #093434;
+}
+#group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.items{
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head>h1,h2,h3,h4{
+    text-align: center;
+    color: goldenrod;
+
+}
+p{
+    text-align: center;
+    color: white;
+    width: 75vw;
+}
+button{
+    cursor: pointer;
+    background-color: goldenrod;
+    border: 0;
+    color: #093434;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+button:hover{
+    background-color: transparent;
+    border: 0.5px solid goldenrod;
+color: goldenrod;
+    /* border-radius: 50px; */
+}
